@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/95efdca642.js" crossorigin="anonymous"></script>
+    <link  rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    
+    <div class="welcome">
+        <nav id="navbar">
+            <a href="#" class="logo"><i class="fa-solid fa-otter"></i>&emsp;Ermis Ziso</a>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link1">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Home Section-->
+    <section id="home">
+        <div class="home_container" >
+            <h3 class="animate__animated animate__slideInLeft">Hi, my name is </h3>
+            <h1 class="animate__animated animate__slideInLeft">Ermis Ziso</h1>
+            <div class="animate__animated animate__slideInLeft animate__delay-1s">
+                <h2><span style="color:white">I'm a passionate </span> junior software engineer.</h2>
+                <p>Welcome to my portfolio. Scroll, look around and if you find something worth talking, just contact me. </p>
+                <a href="./ResumeEZ.pdf" download="resume.pdf" class="CV-btn">Download CV</a>
+            </div>
+
+            <div class="home-img animate__animated animate__slideInRight" style="position: relative;">
+                <div style="position: absolute;right: 20px;top: 0; z-index: 1;width: 50%;">
+                    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="margin-top: -550px;">
+                      <path fill="#111A20" d="M34.4,-31.6C47.8,-21,64,-10.5,66.5,2.5C69,15.5,57.8,31.1,44.4,45.8C31.1,60.5,15.5,74.4,0.2,74.2C-15.2,74,-30.3,59.7,-44.1,45C-57.9,30.3,-70.3,15.2,-73.3,-3C-76.3,-21.2,-70,-42.4,-56.2,-53C-42.4,-63.5,-21.2,-63.5,-5.3,-58.1C10.5,-52.8,21,-42.2,34.4,-31.6Z" transform="translate(100 100)" />
+                    </svg>
+                </div>
+                <img src="./assets/main.png" style="position: absolute;right: 20px; z-index: 999;">
+    
+            </div>
+        </div>
+    </section>
+   <!-- <script>
+        function downloadme(x){
+        myTempWindow = window.open(x,'','left=10000,screenX=10000');
+        myTempWindow.document.execCommand('SaveAs','null','download.pdf');
+        myTempWindow.close();
+        }
+    </script>-->
+    
+    <!-- About Section-->
+    <section class="about" id="about">
+        <div class="about_text">
+            <h2>About Me</h2>
+            <h3>I'm a <span style="color:#2F2E41;font-weight:bold;">Junior Software Engineer </span> based in Athens, Greece. </h3>
+            <p>
+                Passionate Junior Software Engineer. Currently studying in University of West Attica Department of Informatics and Computer Engineering.
+                What would describe me most accurately would be hardworking, dedicated and enthusiastic about my work. Experienced 
+                with several programming languages and technologies. Always eager to learn 
+                new skills and work with talented and experienced colleagues.
+            </p>
+            <div class="about-img">
+                <img src="./assets/undraw_developer_activity_re_39tg.svg">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section-->
+    <section id="projects">
+        <div class="projects_contain">
+            <div class="projects_header">
+                <h1 class="title_projects">Personal Projects</h1>
+            </div>
+            <div class="center" style="display: flex;flex-direction: row;flex-wrap: wrap;">
+                <div class="property-card" style="flex-basis: 30%;min-width: 340px;">
+                  <a href="#">
+                    <div class="property__img property-image">
+                    </div></a>
+                  <div class="property-description">
+                    <h5> Fitness Zone Page </h5>
+                    <p>This is a Fitness page built in HTML and CSS.</p>
+                  </div>
+                </div>
+                <div class="property-card" style="flex-basis: 30%;min-width: 340px;">
+                    <a href="#">
+                      <div class="property__img property-image1">
+                      </div></a>
+                    <div class="property-description">
+                      <h5> Java Web Application</h5>
+                      <p>Java CRUD Web Application built with SERVLET <br>technology.</p>
+                    </div>
+                  </div>
+                  <div class="property-card" style="flex-basis: 30%;min-width: 340px;">
+                    <a href="#">
+                      <div class="property__img property-image2">
+                      </div></a>
+                    <div class="property-description">
+                      <h5> C++ </h5>
+                      <p>A 2D Game for University project assignment <br> built with C++ and ncurses library.</p>
+                    </div>
+                  </div>
+              </div>
+            <!--
+            <div class="all_projects_row">
+                <div class="project_item1">
+                    <h1>Project 1</h1>
+                    <p>Project was good nice perfect jklajsh kjsad asddfsdf sad vasdd.</p>
+                    <a class="project-btn" href="#">Press</a>
+                    <div class="proj1-img">
+                        <img src="proj1.png">
+                    </div>
+                </div>
+                <div class="project_items23">
+                    <div class="project__item project_item2">
+                        <h1>Project 2</h1>
+                        <p>Project was good nice perfect jklajsh kjsad asddfsdf sad vasdd.</p>
+                        <a class="project-btn" href="#">Press</a>
+                    </div>
+                    <div class="project__item project_item3">
+                        <h1>Project 3</h1>
+                        <p>Project was good nice perfect jklajsh kjsad asddfsdf sad vasdd.</p>
+                        <a class="project-btn" href="#">Press</a>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </section>
+    
+    <!-- Contact Section-->
+    <section id="contact">
+        <div class="contact_contain">
+            <h1>Contact Me</h1>
+            <p>You can find me on the links below.</p>
+            <div class="social_icons">
+                <a href="mailto:ermiszpao@gmail.com" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/ermis-ziso/" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ErmisZ" target="_blank" rel="nofollow noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a class="chat-button" id="chatbutton" href="#modal-bg"><i class="fa-regular fa-comment"></i> Chat</a>
+        </div>
+    </section>
+
+    <!--Modal section Chat Button-->
+    <div class="modal-bg">
+        <div class="modal-cont">
+            <div class="close">+</div>
+            <img src="assets/icons8-user-male-skin-type-3-80.png" alt="">
+            <form action="#modal-bg"><!-- stay on modalbg page when press cancel -->
+                <textarea placeholder="Enter your message."></textarea>
+                <div class="modal-button">
+                    <button id="cancelbutton" class="cancel">Cancel</button>
+                    <button class="send">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--Script js -->
+    <script src="script.js"></script>
+
+</body>
+<footer><i class="fa-regular fa-copyright"></i> 2022 Made by Ermis. All rights reserved.</footer>
+</html>
